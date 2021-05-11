@@ -1,0 +1,32 @@
+body{
+    background-image: linear-gradient(to right, #0096c7, #48cae4, #ade8f4);
+    display: flex;
+    align-items: center;
+}
+
+.capture{
+    width:120px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: none;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: none;
+    border: none;
+    align-items: center;
+    outline: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    transition: 0.8s;
+}
+
+#capture:hover{
+    transition: 0.4s;
+    width: 135px;
+    padding:12px;
+    
+}
+
